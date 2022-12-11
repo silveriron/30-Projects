@@ -1,0 +1,28 @@
+form {
+  width: 360px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+label {
+  display: block;
+}
+
+meter {
+  width: 100%;
+}
+
+.result {
+  text-align: center;
+  margin-top: 10px;
+  display: none;
+}
+
+.result div {
+  margin-bottom: 10px;
+}
