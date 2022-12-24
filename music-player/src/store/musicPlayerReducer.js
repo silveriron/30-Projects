@@ -133,6 +133,7 @@ export default function musicPlayerReducer(state = initialState, action) {
         currentIndex: action.newList.findIndex(
           (music) => music.id === state.currentMusicId
         ),
+        
       };
     default:
       return state;
